@@ -936,7 +936,7 @@ pre code {
 .offset-11 {
 	margin-left: 91.66667%
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px) {
 	.col-sm {
 		-ms-flex-preferred-size: 0;
@@ -1335,15 +1335,14 @@ pre code {
 }
 
 .font-style-hey {
-    font-family: 'Shadows Into Light', cursive; /* NEW =================================================================================*/
+    font-family: 'Shadows Into Light', cursive;
 }
-
-
 /* Contact
 ---------------------------------*/
 
 .main-section {
-    margin-top: 290px;
+	margin-top: 200px;
+	
 }
 
 .contact-info-box {
@@ -1550,6 +1549,9 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i {
     color: #fff;
 }
+.align {
+	margin-top: 2rem;
+}
 
 a.socialIcon:hover,
 .socialHoverClass {
@@ -1636,12 +1638,7 @@ a.socialIcon:hover,
 		flex: 0 0 25%;
 		max-width: 25%
 	}
-	.col-lg-4 {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 33.33333%;
-		flex: 0 0 33.33333%;
-		max-width: 33.33333%
-	}
+
 	.col-lg-5 {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 41.66667%;
@@ -2285,8 +2282,9 @@ a.socialIcon:hover,
 
 .table-dark.table-hover tbody tr:hover {
 	color: #fff;
-	background-color: rgba(255, 255, 255, .075)
+	background-color: rgba(255, 255, 255, .075)	
 }
+
 
 @media (max-width:575.98px) {
 	.table-responsive-sm {
@@ -2859,7 +2857,7 @@ textarea.form-control.is-invalid {
 }
 
 .form-inline .form-check {
-	width: 100%
+	width: 100%;
 }
 
 @media (min-width:576px) {
@@ -9032,7 +9030,6 @@ button.bg-light:hover {
 	margin-right: 1rem!important
 }
 
-.mb-3,
 .my-3 {
 	margin-bottom: 1rem!important
 }
@@ -9360,7 +9357,6 @@ button.bg-light:hover {
 	margin-top: auto!important
 }
 
-.mr-auto,
 .mx-auto {
 	margin-right: auto!important
 }
@@ -9374,7 +9370,7 @@ button.bg-light:hover {
 .mx-auto {
 	margin-left: auto!important
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px) {
 	.m-sm-0 {
 		margin: 0!important
@@ -9719,7 +9715,7 @@ button.bg-light:hover {
 		margin-left: auto!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:768px) {
 	.m-md-0 {
 		margin: 0!important
@@ -10064,7 +10060,7 @@ button.bg-light:hover {
 		margin-left: auto!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px) {
 	.m-lg-0 {
 		margin: 0!important
@@ -10409,7 +10405,7 @@ button.bg-light:hover {
 		margin-left: auto!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:1200px) {
 	.m-xl-0 {
 		margin: 0!important
@@ -10788,7 +10784,7 @@ button.bg-light:hover {
 .text-center {
 	text-align: center!important
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:576px) {
 	.text-sm-left {
 		text-align: left!important
@@ -10800,7 +10796,7 @@ button.bg-light:hover {
 		text-align: center!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:768px) {
 	.text-md-left {
 		text-align: left!important
@@ -10812,7 +10808,7 @@ button.bg-light:hover {
 		text-align: center!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px) {
 	.text-lg-left {
 		text-align: left!important
@@ -10824,7 +10820,7 @@ button.bg-light:hover {
 		text-align: center!important
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:1200px) {
 	.text-xl-left {
 		text-align: left!important
@@ -10993,7 +10989,7 @@ a.text-dark:hover {
 .invisible {
 	visibility: hidden!important
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media print {
 	*,
 	::after,
@@ -11109,7 +11105,6 @@ hr.light {
 
 .page-section {
     padding: 8rem 0;
-    height: 94vh; /*NEW===========================================================================================*/
 }
 
 #mainNav {
@@ -11142,7 +11137,7 @@ hr.light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
 	color: #f4623a!important
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px) {
 	#mainNav {
 		-webkit-box-shadow: none;
@@ -11198,7 +11193,7 @@ header.masthead {
 header.masthead h1 {
 	font-size: 2.25rem
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px) {
 	header.masthead {
 		height: 100vh;
@@ -11213,7 +11208,7 @@ header.masthead h1 {
 		font-size: 3rem
 	}
 }
-
+/*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:1200px) {
 	header.masthead h1 {
 		font-size: 3.5rem
