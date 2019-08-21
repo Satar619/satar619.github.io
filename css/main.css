@@ -11997,6 +11997,19 @@ header.masthead h1 {
 	font-size: 2.25rem
 }
 
+/* drink */
+#drink {
+	text-align: center;
+	margin-top: 7%;
+	cursor: pointer;
+}
+#drink i {
+	color: #FFCC00;
+}
+#drink-span-healthy{
+	visibility: hidden;
+}
+
 /*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:992px) {
 	header.masthead {
@@ -12030,13 +12043,17 @@ header.masthead h1 {
 .InTouch {
 	padding-top: 180px;
 }
-.mail, .mail:hover{
+
+.mail,
+.mail:hover {
 	text-decoration: none;
 	color: #212529;
 }
+
 .text-color:hover {
 	text-decoration: none;
 }
+
 @media screen and (max-width: 500px) {
 	.main-section {
 		margin-top: 40px;
