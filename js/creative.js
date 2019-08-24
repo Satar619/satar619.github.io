@@ -67,6 +67,7 @@ function addMultipleListeners(element, events, handler, useCapture, args) {
   }
 }
 let span = document.querySelector('#drink-span-healthy');
+
 function handler(e) {
   audio = new Audio();
   audio.src = './vendor/audio/water.mp3';
@@ -74,4 +75,5 @@ function handler(e) {
   audio.play();
   span.style.visibility = 'visible';
 }
-addMultipleListeners(document.querySelector('.fa-glass-martini-alt'), ['mouseover', 'click'], handler, false); // End of Drink event
+addMultipleListeners(document.querySelector('.fa-glass-martini-alt'),
+  ['mouseover', 'click'], handler, false); // End of Drink event

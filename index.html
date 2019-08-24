@@ -130,102 +130,105 @@
         </div>
       </div>
       <div id="drink" data-aos="fade-left">
-        <h3>Drinking => <i class="fas fa-glass-martini-alt"></i> Makes me <span id="drink-span-healthy" data-aos="zoom-in-left">GREAT</span></h3>
-        
+        <h3 class="h4 mb-2">I Drink Only => <i class="fas fa-glass-martini-alt"></i><span id="drink-span-healthy"
+            data-aos="zoom-in-left">Water</span></h3>
+        <!-- TODO: Need to add settimeout and more (Water h3 to page!) 
+        Remove eventlistener to be able to run the event after 10 seconds-->
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <h2 class="mt-0 text-center InTouch" data-aos="fade-up">Let's Get In Touch!</h2>
-  <div id="contact" class="page-section container">
-    <section class=" contact" id="contact">
-      <div class="row">
-        <div class="col-lg-6 col-sm-7 wow fadeInLeft">
-          <div class="contact-info-box phone" data-aos="zoom-in-down">
-            <h3>Phone:</h3>
-            <span>0049 177 655 7525</span>
-          </div>
-          <div class="contact-info-box email" data-aos="zoom-in">
-            <h3>Email:</h3>
-            <span><a class="mail" href="mailto:satar.619@yahoo.com">satar.619@yahoo.com</a></span>
-          </div>
-          <div class="col-sm-12 align" data-aos="zoom-in-up">
-            <ul class="social-network social-circle">
-              <li><a href="https://www.instagram.com/satar.sy/" target="blank" class="instagram" title="Instagram"><i
-                    class="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.facebook.com/100005115497568" target="blank" class="icoFacebook"
-                  title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="https://twitter.com/Satarsy" class="icoTwitter" target="blank" title="Twitter"><i
-                    class="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/satarsy/" target="blank" class="icoLinkedin" title="Linkedin"><i
-                    class="fab fa-linkedin-in"></i></a></li>
-              <li><a
-                  href="https://api.whatsapp.com/send?phone=+491776557525&text=Hello dear Satar Sy, I contacted you Through your website.I am "
-                  target="blank" class="whatsapp" title="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
-            </ul>
-          </div>
+        <h2 class="mt-0 text-center InTouch" data-aos="fade-up">Let's Get In Touch!</h2>
+        <div id="contact" class="page-section container">
+          <section class=" contact" id="contact">
+            <div class="row">
+              <div class="col-lg-6 col-sm-7 wow fadeInLeft">
+                <div class="contact-info-box phone" data-aos="zoom-in-down">
+                  <h3>Phone:</h3>
+                  <span>0049 177 655 7525</span>
+                </div>
+                <div class="contact-info-box email" data-aos="zoom-in">
+                  <h3>Email:</h3>
+                  <span><a class="mail" href="mailto:satar.619@yahoo.com">satar.619@yahoo.com</a></span>
+                </div>
+                <div class="col-sm-12 align" data-aos="zoom-in-up">
+                  <ul class="social-network social-circle">
+                    <li><a href="https://www.instagram.com/satar.sy/" target="blank" class="instagram"
+                        title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/100005115497568" target="blank" class="icoFacebook"
+                        title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/Satarsy" class="icoTwitter" target="blank" title="Twitter"><i
+                          class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/satarsy/" target="blank" class="icoLinkedin"
+                        title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a
+                        href="https://api.whatsapp.com/send?phone=+491776557525&text=Hello dear Satar Sy, I contacted you Through your website.I am "
+                        target="blank" class="whatsapp" title="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                <div class="form">
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                  <div id="errormessage"></div>
+                  <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name"
+                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control input-text" name="email" id="email"
+                        placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-text" name="subject" id="subject"
+                        placeholder="Subject" data-rule="minlen:4"
+                        data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+
+                    <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
-        <!-- Email -->
-        <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name"
-                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email"
-                  data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject"
-                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required"
-                  data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-
-              <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
-            </form>
+        <!-- Footer -->
+        <footer class="bg-light py-5">
+          <div class="container">
+            <div class="small text-center text-muted">copyright &copy; 2015 - 2019 - <a
+                class="js-scroll-trigger text-color" href="#page-top">by Satar SY</a></div>
           </div>
-        </div>
-      </div>
-    </section>
-  </div>
+        </footer>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">copyright &copy; 2015 - 2019 - <a class="js-scroll-trigger text-color"
-          href="#page-top">by Satar SY</a></div>
-    </div>
-  </footer>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-    })
-  </script>
+        <!-- Custom scripts for this template -->
+        <script src="js/creative.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 1000,
+          })
+        </script>
 
 </body>
 
