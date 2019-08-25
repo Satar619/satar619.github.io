@@ -39,14 +39,14 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
+  Magnific popup calls
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
-      enabled: true,
+      enabled: true,  9
       navigateByImgClick: true,
       preload: [0, 1]
     },
