@@ -1,3 +1,9 @@
 # satarsy.github.io
 
-|| This is my blog
+|| My first blog
+
+
+
+
+-- -- 
+**Ale Right Reserved 

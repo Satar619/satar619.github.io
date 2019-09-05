@@ -12002,14 +12002,21 @@ header.masthead h1 {
 	text-align: center;
 	margin-top: 7%;
 	cursor: pointer;
-}
+} 
+
 #drink i {
 	color: #FFCC00;
 }
-#drink-span-healthy{
+
+#water1{
 	visibility: hidden;
 	margin-left: 3%;
-	
+}
+#water2{
+	visibility: hidden;
+}
+#water3{
+	visibility: hidden;
 }
 
 /*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -12028,6 +12035,7 @@ header.masthead h1 {
 	header.masthead h1 {
 		font-size: 3rem
 	}
+
 }
 
 /*MEDIA==============>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -12059,5 +12067,9 @@ header.masthead h1 {
 @media screen and (max-width: 500px) {
 	.main-section {
 		margin-top: 40px;
+	}
+	#drink{
+		max-width: 270px;
+		margin: 4% auto;
 	}
 }
