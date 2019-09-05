@@ -1614,9 +1614,11 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i {
 	color: #fff;
 }
-.fab{
-	font-size: 1.2em;
+
+.fab {
+	font-size: 1.1em;
 }
+
 .align {
 	margin-top: 2rem;
 }
@@ -12003,20 +12005,22 @@ header.masthead h1 {
 	text-align: center;
 	margin-top: 7%;
 	cursor: pointer;
-} 
+}
 
 #drink i {
 	color: #FFCC00;
 }
 
-#water1{
+#water1 {
 	visibility: hidden;
 	margin-left: 3%;
 }
-#water2{
+
+#water2 {
 	visibility: hidden;
 }
-#water3{
+
+#water3 {
 	visibility: hidden;
 }
 
@@ -12069,7 +12073,8 @@ header.masthead h1 {
 	.main-section {
 		margin-top: 40px;
 	}
-	#drink{
+
+	#drink {
 		max-width: 270px;
 		margin: 4% auto;
 	}
