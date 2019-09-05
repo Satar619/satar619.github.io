@@ -1614,7 +1614,9 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i {
 	color: #fff;
 }
-
+.fab{
+	font-size: 1.2em;
+}
 .align {
 	margin-top: 2rem;
 }
