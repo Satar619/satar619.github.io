@@ -77,3 +77,4 @@ function handler(e) {
 }
 addMultipleListeners(document.querySelector('.fa-glass-martini-alt'),
   ['mouseover', 'click'], handler, false); // End of Drink event
+
