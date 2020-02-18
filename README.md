@@ -1,9 +1,4 @@
-# satarsy.github.io
-
-|| My first blog
-
-
-
-
--- -- 
-**Ale Right Reserved 
+ToDo List:
+1: Collect feedback option
+2: Social Media informations
+3: 
